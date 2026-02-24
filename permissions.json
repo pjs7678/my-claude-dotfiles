@@ -1,0 +1,31 @@
+{
+  "allow": [
+    "Bash(source ~/.zshrc)",
+    "Bash(command -v gh:*)",
+    "Bash(gh api:*)",
+    "WebFetch(domain:raw.githubusercontent.com)",
+    "Bash(chmod:*)",
+    "Bash(bash:*)",
+    "Bash(tmux source:*)",
+    "Bash(tmux show-option:*)",
+    "Bash(tmux display-message:*)",
+    "Bash(tmux source-file:*)",
+    "Bash(python3:*)",
+    "Bash(tree:*)",
+    "Bash(wc:*)",
+    "Bash(grep:*)",
+    "Bash(find:*)",
+    "Bash(xargs:*)",
+    "Bash(ls:*)",
+    "Bash(tr:*)",
+    "Bash(tmux list-sessions:*)",
+    "Bash(tmux list-panes:*)",
+    "Bash(tmux send-keys:*)",
+    "Bash(gtimeout 3:*)",
+    "Bash(tmux kill-session:*)",
+    "Skill(claude-hud:configure)",
+    "Skill(claude-hud:setup)",
+    "Bash(echo === $pane ===:*)",
+    "Bash(tmux capture-pane:*)"
+  ]
+}
