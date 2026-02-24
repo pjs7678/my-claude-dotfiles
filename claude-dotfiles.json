@@ -1,6 +1,6 @@
 {
-  "name": "jongsu's claude setup",
-  "description": "eBPF + Kubernetes focused setup with superpowers workflow, claude-hud, and context7",
+  "name": "my claude setup",
+  "description": "Full-stack dev with superpowers, claude-hud, and context7",
   "author": "pjs7678",
   "version": "1.0.0",
   "components": {
@@ -19,13 +19,16 @@
     "skills": {
       "include": true,
       "dir": "skills/"
+    },
+    "pluginSkills": {
+      "include": true,
+      "file": "plugin-skills.json"
     }
   },
   "tags": [
-    "kubernetes",
-    "ebpf",
+    "typescript",
     "superpowers",
-    "kotlin",
-    "claude-hud"
+    "claude-hud",
+    "context7"
   ]
 }
